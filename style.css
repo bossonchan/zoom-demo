@@ -1,0 +1,30 @@
+#main {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 100px auto;
+  border: 1px solid #000;
+  overflow: scroll;
+}
+
+.row {
+  display: block;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.col {
+  display: block;
+  float: left;
+
+  background: url("./ico_seat.gif");
+  background-position: 4px -54px;
+  width: 30px;
+  height: 26px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
